@@ -72,6 +72,7 @@
                 anchor = document.getElementById("dllink");
                 anchor.setAttribute("href", url);
                 imgTag = document.getElementById("resultImg")
+                imgTag.style = "";
                 imgTag.src = url
             });
           }
@@ -96,7 +97,7 @@
     </form>
     <br>
     <canvas id="result" width="400" height="200"></canvas> 
-    <img id="resultImg" src="" />
+    <img style="display: none;" id="resultImg" src="" />
 </body>
 </html>
 
